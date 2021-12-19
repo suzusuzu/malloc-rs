@@ -9,4 +9,3 @@ crate-type = ["cdylib"]
 
 [dependencies]
 libc = "0.2.112"
-jemalloc-sys = "0.3.2"
