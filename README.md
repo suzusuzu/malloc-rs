@@ -4,6 +4,12 @@ Implementation of malloc, realloc, calloc, and free in Rust.
 
 *Note: No thread safe*
 
+## Architecture
+
+![](./img/malloc-rs-arch.png)
+
+512 bytes or less is allocated by Segregated Free List, and more than 512 bytes is allocated by mmap.
+
 ## Usage
 
 ```bash
