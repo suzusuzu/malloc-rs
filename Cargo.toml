@@ -1,5 +1,5 @@
 [package]
-name = "rust-malloc"
+name = "malloc-rs"
 version = "0.1.0"
 authors = ["suzusuzu <s.suzugamine@gmail.com>"]
 edition = "2021"
